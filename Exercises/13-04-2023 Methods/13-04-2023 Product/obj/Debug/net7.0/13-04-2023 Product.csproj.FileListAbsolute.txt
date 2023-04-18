@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\bin\Debug\net7.0\13-04-2023 Product.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\bin\Debug\net7.0\13-04-2023 Product.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\bin\Debug\net7.0\13-04-2023 Product.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\bin\Debug\net7.0\13-04-2023 Product.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\bin\Debug\net7.0\13-04-2023 Product.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\refint\13-04-2023 Product.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\13-04-2023 Product.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Product\obj\Debug\net7.0\ref\13-04-2023 Product.dll

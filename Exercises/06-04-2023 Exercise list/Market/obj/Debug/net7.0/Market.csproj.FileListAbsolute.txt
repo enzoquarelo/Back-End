@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\bin\Debug\net7.0\Market.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\bin\Debug\net7.0\Market.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\bin\Debug\net7.0\Market.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\bin\Debug\net7.0\Market.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\bin\Debug\net7.0\Market.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\refint\Market.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\Market.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Market\obj\Debug\net7.0\ref\Market.dll

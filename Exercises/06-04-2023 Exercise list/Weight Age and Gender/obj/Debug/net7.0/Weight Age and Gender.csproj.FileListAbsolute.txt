@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\bin\Debug\net7.0\Weight Age and Gender.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\bin\Debug\net7.0\Weight Age and Gender.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\bin\Debug\net7.0\Weight Age and Gender.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\bin\Debug\net7.0\Weight Age and Gender.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\bin\Debug\net7.0\Weight Age and Gender.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\refint\Weight Age and Gender.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\Weight Age and Gender.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Weight Age and Gender\obj\Debug\net7.0\ref\Weight Age and Gender.dll

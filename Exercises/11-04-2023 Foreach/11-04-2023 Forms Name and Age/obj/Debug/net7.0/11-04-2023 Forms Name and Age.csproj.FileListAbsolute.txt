@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\bin\Debug\net7.0\11-04-2023 Forms Name and Age.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\bin\Debug\net7.0\11-04-2023 Forms Name and Age.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\bin\Debug\net7.0\11-04-2023 Forms Name and Age.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\bin\Debug\net7.0\11-04-2023 Forms Name and Age.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\bin\Debug\net7.0\11-04-2023 Forms Name and Age.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\refint\11-04-2023 Forms Name and Age.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\11-04-2023 Forms Name and Age.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\11-04-2023 Forms Name and Age\obj\Debug\net7.0\ref\11-04-2023 Forms Name and Age.dll

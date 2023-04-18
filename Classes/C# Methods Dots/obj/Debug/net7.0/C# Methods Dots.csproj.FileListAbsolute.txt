@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\bin\Debug\net7.0\C# Methods Dots.exe
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\bin\Debug\net7.0\C# Methods Dots.deps.json
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\bin\Debug\net7.0\C# Methods Dots.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\bin\Debug\net7.0\C# Methods Dots.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\bin\Debug\net7.0\C# Methods Dots.pdb
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\refint\C# Methods Dots.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.pdb
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\C# Methods Dots.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods Dots\obj\Debug\net7.0\ref\C# Methods Dots.dll

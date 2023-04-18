@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\bin\Debug\net7.0\17-04-2023 airline tickets.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\bin\Debug\net7.0\17-04-2023 airline tickets.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\bin\Debug\net7.0\17-04-2023 airline tickets.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\bin\Debug\net7.0\17-04-2023 airline tickets.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\bin\Debug\net7.0\17-04-2023 airline tickets.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\refint\17-04-2023 airline tickets.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\17-04-2023 airline tickets.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\17-04-2023 airline tickets\obj\Debug\net7.0\ref\17-04-2023 airline tickets.dll

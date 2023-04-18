@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\bin\Debug\net7.0\Age Artist.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\bin\Debug\net7.0\Age Artist.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\bin\Debug\net7.0\Age Artist.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\bin\Debug\net7.0\Age Artist.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\bin\Debug\net7.0\Age Artist.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\refint\Age Artist.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\Age Artist.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Age Artist\obj\Debug\net7.0\ref\Age Artist.dll

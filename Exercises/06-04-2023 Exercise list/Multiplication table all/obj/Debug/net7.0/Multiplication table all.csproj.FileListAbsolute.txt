@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\bin\Debug\net7.0\Multiplication table all.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\bin\Debug\net7.0\Multiplication table all.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\bin\Debug\net7.0\Multiplication table all.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\bin\Debug\net7.0\Multiplication table all.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\bin\Debug\net7.0\Multiplication table all.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\refint\Multiplication table all.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\Multiplication table all.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Multiplication table all\obj\Debug\net7.0\ref\Multiplication table all.dll

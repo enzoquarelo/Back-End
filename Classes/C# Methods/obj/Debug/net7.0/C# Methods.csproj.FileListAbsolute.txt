@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\bin\Debug\net7.0\C# Methods.exe
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\bin\Debug\net7.0\C# Methods.deps.json
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\bin\Debug\net7.0\C# Methods.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\bin\Debug\net7.0\C# Methods.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\bin\Debug\net7.0\C# Methods.pdb
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\refint\C# Methods.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.pdb
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\C# Methods.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\C# Methods\obj\Debug\net7.0\ref\C# Methods.dll

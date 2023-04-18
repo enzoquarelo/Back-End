@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\bin\Debug\net7.0\Exercise Loop.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\bin\Debug\net7.0\Exercise Loop.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\bin\Debug\net7.0\Exercise Loop.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\bin\Debug\net7.0\Exercise Loop.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\bin\Debug\net7.0\Exercise Loop.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\refint\Exercise Loop.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\Exercise Loop.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\Exercise Loop\obj\Debug\net7.0\ref\Exercise Loop.dll

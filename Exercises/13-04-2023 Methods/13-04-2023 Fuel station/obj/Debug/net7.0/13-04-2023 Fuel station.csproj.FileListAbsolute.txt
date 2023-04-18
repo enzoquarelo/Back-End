@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\bin\Debug\net7.0\13-04-2023 Fuel station.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\bin\Debug\net7.0\13-04-2023 Fuel station.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\bin\Debug\net7.0\13-04-2023 Fuel station.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\bin\Debug\net7.0\13-04-2023 Fuel station.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\bin\Debug\net7.0\13-04-2023 Fuel station.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\refint\13-04-2023 Fuel station.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\13-04-2023 Fuel station.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Fuel station\obj\Debug\net7.0\ref\13-04-2023 Fuel station.dll

@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\bin\Debug\net7.0\Note Validation.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\bin\Debug\net7.0\Note Validation.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\bin\Debug\net7.0\Note Validation.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\bin\Debug\net7.0\Note Validation.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\bin\Debug\net7.0\Note Validation.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\refint\Note Validation.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\Note Validation.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\06-04-2023 Exercise list\Note Validation\obj\Debug\net7.0\ref\Note Validation.dll

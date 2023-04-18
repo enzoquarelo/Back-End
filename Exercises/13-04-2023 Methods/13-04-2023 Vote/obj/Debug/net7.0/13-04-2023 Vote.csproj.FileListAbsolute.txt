@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\bin\Debug\net7.0\13-04-2023 Vote.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\bin\Debug\net7.0\13-04-2023 Vote.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\bin\Debug\net7.0\13-04-2023 Vote.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\bin\Debug\net7.0\13-04-2023 Vote.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\bin\Debug\net7.0\13-04-2023 Vote.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\refint\13-04-2023 Vote.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\13-04-2023 Vote.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\13-04-2023 Vote\obj\Debug\net7.0\ref\13-04-2023 Vote.dll
