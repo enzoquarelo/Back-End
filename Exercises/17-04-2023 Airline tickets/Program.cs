@@ -7,10 +7,10 @@
 //2- Listar Passagens
 //0- Sair
 
-string[] usuario = new string[2];
-string[] origem = new string[2];
-string[] destino = new string[2];
-string[] datas = new string[2]; //data = "dd/mm/aaaa"
+string[] usuario = new string[5];
+string[] origem = new string[5];
+string[] destino = new string[5];
+string[] datas = new string[5]; //data = "dd/mm/aaaa"
 
 
 static bool fazerLogin(int senha)
@@ -68,7 +68,7 @@ switch (escolhaMenu)
 
         do
         {
-            for (var i = 0; i < 2; i++)
+            for (var i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Informe o nome: ");
                 usuario[i] = Console.ReadLine();
@@ -89,7 +89,7 @@ switch (escolhaMenu)
         } while (resposta == "s");
         break;
     case "2":
-        for (var i = 0; i < 2; i++)
+        for (var i = 0; i < 5; i++)
         {
             Console.WriteLine(@$"
             -------------------
