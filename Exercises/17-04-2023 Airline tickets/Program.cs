@@ -7,129 +7,106 @@
 //2- Listar Passagens
 //0- Sair
 
-string usuario = "";
-string origem = "";
-string destino = "";
-string dataPartida = "";
-string dataFinal = "";
+string[] usuario = new string[2];
+string[] origem = new string[2];
+string[] destino = new string[2];
+string[] datas = new string[2]; //data = "dd/mm/aaaa"
 
-static void menu()
-{
-    Console.WriteLine(@$"
- ________________________________
-|   Menu da Agencia de Turismo   |
-|                                |
-|1- Cadastrar passagem           |
-|2- Listar Passagens             |
-|3- Sair                         |
-|________________________________|
-");
-}
 
-static void listagemViagens(string usuario, string origem, string destino, string dataPartida, string dataFinal)
+static bool fazerLogin(int senha)
 {
-    for (int exibir = 1; exibir <=  3; exibir++)
+    if (senha != 123456)
     {
-        Console.WriteLine($"Sera exibido a seguir as informacoes sobre as viagens cadastradas de cada usuario");
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.Write($"{exibir}° Usuario:");
-        Console.ResetColor();
-        Console.WriteLine($"{usuario}");
-
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.Write($"Origem da viagem:");
-        Console.ResetColor();
-        Console.WriteLine($"{origem}");
-
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.Write($"Destino da viagem:");
-        Console.ResetColor();
-        Console.WriteLine($"{destino}");
-
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.Write($"Dastas cadastradas para a viagem:");
-        Console.ResetColor();
-        Console.WriteLine($"Data de Partida : {dataPartida} e Data de fim da viagem :{dataFinal}");
+        Console.WriteLine($"Senha incorreta!");
+        return false;
+    }
+    else
+    {
+        return true;
     }
 }
 
-int senha = 123456;
 
 Console.WriteLine(@$"
- ________________________________
-|    Bem-Vindo a nossa Agencia   |
-|                                |
-| Por-favor informe a senha para |
-|      que possamos seguir!      |
-|________________________________|
+ _________________________________
+|                                 |
+| Bem-vindos a Agencia de Viagens |
+|_________________________________|
 ");
 
-int tentativaSenha = int.Parse(Console.ReadLine());
+bool tentativaSenha;
 
-if (tentativaSenha == senha)
+//validação de senha
+do
 {
-    Console.WriteLine($"Senha válidada, pressione <Enter> para seguir.");
-}
-else
-{
-    Console.WriteLine($"Senha Incorreta, tente novamente. !");
-    tentativaSenha = int.Parse(Console.ReadLine());
-}
+    Console.WriteLine($"Informe a senha padrão: ");
+    int senha = int.Parse(Console.ReadLine());
 
-menu();
-char opcaoMenu = char.Parse(Console.ReadLine());
+    tentativaSenha = fazerLogin(senha);
 
-while(true)
-{
-  switch (opcaoMenu)
-{
+} while (tentativaSenha == false);
 
-    case '1':
+
+string escolhaMenu;
+
+do
+{
+    //menu de opções
+Console.WriteLine($"**Menu inicial**");
+Console.WriteLine($"Selecione uma opção:");
+Console.WriteLine($"[1] - Cadastro");
+Console.WriteLine($"[2] - Listar");
+Console.WriteLine($"[0] - Sair");
+
+escolhaMenu = Console.ReadLine();
+
+switch (escolhaMenu)
+{
+    case "1":
+
+        string resposta;
+
+        do
         {
-            for (int i = 1; i < 3; i++)
+            for (var i = 0; i < 2; i++)
             {
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Informe o Nome do {i}° Passageiro :");
-                Console.ResetColor();
-                usuario = Console.ReadLine();
+                Console.WriteLine($"Informe o nome: ");
+                usuario[i] = Console.ReadLine();
 
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Informe a origem da viagem : ");
-                Console.ResetColor();
-                origem = Console.ReadLine();
+                Console.WriteLine($"Informe a origem: ");
+                origem[i] = Console.ReadLine();
 
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Informe o destino de sua viagem :");
-                Console.ResetColor();
-                destino = Console.ReadLine();
+                Console.WriteLine($"Informe o destino: ");
+                destino[i] = Console.ReadLine();
 
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Informe a data de partida da viagem:(dia/mes/ano)");
-                Console.ResetColor();
-                dataPartida = Console.ReadLine();
-
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine($"Informe a data de termino da viagem:(dia/mes/ano)");
-                Console.ResetColor();
-                dataFinal = Console.ReadLine();
+                Console.WriteLine($"Informe a data: ");
+                datas[i] = Console.ReadLine();
             }
 
-           menu(); 
-           opcaoMenu = char.Parse(Console.ReadLine());
+            Console.WriteLine($"Gostaria de cadastrar uma nova passagem ? s/n");
+            resposta = Console.ReadLine().ToLower();
 
+        } while (resposta == "s");
+        break;
+    case "2":
+        for (var i = 0; i < 2; i++)
+        {
+            Console.WriteLine(@$"
+            -------------------
+            Bilhete de Passagem
+
+            Nome: {usuario[i]}
+            Origem: {origem[i]}
+            Destino: {destino[i]}
+            Data: {datas[i]}            
+            ");
         }
         break;
-    case '2':
-
-        listagemViagens(usuario, origem, destino, dataPartida, dataFinal);
-
-        break;
-    case '3':
-
+    case "0":
+        Console.WriteLine($"Fim");
         break;
     default:
-        Console.WriteLine($"Por-favor, informe uma opcao valida do menu :");
-
+        Console.WriteLine($"Opção inválida");
         break;
 }
-}
+} while (escolhaMenu != "0");
