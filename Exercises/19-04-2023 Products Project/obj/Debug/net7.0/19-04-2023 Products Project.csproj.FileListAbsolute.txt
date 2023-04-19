@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\bin\Debug\net7.0\19-04-2023 Products Project.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\bin\Debug\net7.0\19-04-2023 Products Project.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\bin\Debug\net7.0\19-04-2023 Products Project.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\bin\Debug\net7.0\19-04-2023 Products Project.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\bin\Debug\net7.0\19-04-2023 Products Project.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\refint\19-04-2023 Products Project.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\19-04-2023 Products Project.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\19-04-2023 Products Project\obj\Debug\net7.0\ref\19-04-2023 Products Project.dll
