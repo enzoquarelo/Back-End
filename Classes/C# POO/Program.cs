@@ -19,9 +19,62 @@ Idade : {Personagem1.idade}
 Armadura : {Personagem1.armadura}
 I.A : {Personagem1.ia}");
 
-Personagem1.Atacar();
-Personagem1.RestaurarArmadura();
-Console.WriteLine(Personagem1.Defender());
+static void Loading(string texto, int pontos, int tempo)
+{
+    Console.Write(texto);
+
+    for(var i = 0; i < pontos; i++)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write($".");
+        Thread.Sleep(tempo);
+    }
+    
+    Console.ResetColor();
+}
+
+Loading("Carregando", 6, 1000);
+
+Console.WriteLine($"Ola {Personagem1.nome}, bem-vindo a nossa equipe, voce foi convocada para o Resgate do Calice de Daenerys, nossa rainha");
+
+Console.WriteLine($"O vilao que vc deve enfrentar para o resgate se encontra na estacao de trem de Maua");
+
+static void LoadingTerreno(string texto, int pontos, int tempo)
+{
+    Console.Write(texto);
+
+    for(var i = 0; i < pontos; i++)
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write($".");
+        Thread.Sleep(tempo);
+    }
+    
+    Console.ResetColor();
+}
+
+Loading("Carregando Terreno", 3, 1000);
+
+Console.WriteLine($"Voce chegou ao destino, esta pronto para a batalha? s/n");
+char respostaBatalha = char.Parse(Console.ReadLine().ToLower());
+
+switch(respostaBatalha)
+{
+    case 's':
+        Console.WriteLine($"Vamos para o comfronto {Personagem1.nome}, o vilao que voce ira lutar e conhecido como Figma, o terror de todos os devs.");
+    break;
+
+    case 'n':
+        Console.WriteLine($"Voce e um covarde (Andre), voce nao faz mais parte da nossa equipe .");
+    break;
+}
+
+Console.WriteLine($"{Personagem1.nome} para auxiliar em seu confronto vc tera as seguintes acoes :");
+
+
+
+
+
 
 
 
