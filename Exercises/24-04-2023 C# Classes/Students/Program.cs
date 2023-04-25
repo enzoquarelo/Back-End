@@ -2,7 +2,10 @@
 
 Aluno Aluno= new Aluno();
 
-Console.WriteLine($"Bem-vindo ao Programa de cadastro de alunos : *Precione <Enter> para seguir*");
+Console.WriteLine($"Bem-vindo ao Programa de cadastro de alunos :");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine($"*Precione <Enter> para seguir*");
+Console.ResetColor();
 Console.ReadLine();
 
 Console.WriteLine($"Informe o nome do aluno :");
@@ -15,15 +18,16 @@ Console.WriteLine($"O(a) {Aluno.Nome} e bolsista ? s/n");
 char bolsistaResposta = char.Parse(Console.ReadLine().ToLower());
 if(bolsistaResposta == 's')
 {
-    bool Bolsista = true;
+    Aluno.Bolsista = true;
 }
 else if(bolsistaResposta == 'n')
 {
-    bool Bolsista = false;
+    Aluno.Bolsista = false;
 }
 else
 {
     Console.WriteLine($"Por-favor insira uma resposta valida. s/n");
+    bolsistaResposta = char.Parse(Console.ReadLine().ToLower());
 }
 Console.WriteLine($"Informe a media final de {Aluno.Nome} :");
 Aluno.MediaFinal = float.Parse(Console.ReadLine());
@@ -39,6 +43,7 @@ do
 |        Menu Inicial      |
 |1- Visualizar Media Final |
 |2- Visulizar Mensalidade  |
+|3- Conferir Dados         |
 |                          |
 |0- Sair                   |
 |__________________________|");
@@ -49,16 +54,18 @@ opcaoMenu = char.Parse(Console.ReadLine());
 
 switch(opcaoMenu)
 {
+    case '0':
+    Console.WriteLine($"Obrigado por utilizar nosso programa !");
+    break;
     case '1':
         Aluno.VerMediaFinal();
     break;
     case '2':
-        Console.WriteLine($"A mensalidade de {Aluno.Nome} a ser paga e de: R${Aluno.VerMensalidade()}");
+        Aluno.VerMensalidade();
     break;
-    case '0':
-    Console.WriteLine($"Obrigado por utilizar nosso programa !");
+    case '3':
+        Aluno.VizualizarDados();
     break;
-
 }
 
 } while (opcaoMenu != 0);

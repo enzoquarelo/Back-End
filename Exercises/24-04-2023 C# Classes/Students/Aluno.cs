@@ -35,21 +35,40 @@ namespace Students
             {
 
                 MensalidadeFinal = Mensalidade - (0.5F * Mensalidade);
+                Console.WriteLine($"A mensalidade de {Nome} a ser paga e de: R$ {MensalidadeFinal}");
+                
                     
             }
             else if(Bolsista == true && MediaFinal > 6 && MediaFinal < 8)
             {
 
                 MensalidadeFinal = Mensalidade - (0.3F * Mensalidade);
-            
+                Console.WriteLine($"A mensalidade de {Nome} a ser paga e de: R$ {MensalidadeFinal}");
                     
             }
             else
             {
                 MensalidadeFinal = Mensalidade;
-                
+                Console.WriteLine($"A mensalidade de {Nome} a ser paga e de: R$ {MensalidadeFinal}");
             }
             return MensalidadeFinal;
+        }
+
+        public void VizualizarDados()
+        {
+            Console.Write($"Nome de Usuario :");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{Nome}");
+            Console.ResetColor();
+            Console.Write($"Curso :");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{Curso}");
+            Console.ResetColor();
+            Console.Write($"RG do Usuario :");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{RG}");
+            Console.ResetColor();
+              
         }
     }
 }
