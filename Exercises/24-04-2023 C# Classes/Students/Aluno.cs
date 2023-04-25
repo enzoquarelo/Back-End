@@ -34,13 +34,13 @@ namespace Students
             if(Bolsista == true && MediaFinal >= 8)
             {
 
-                MensalidadeFinal = Mensalidade - (50/100 * Mensalidade);
+                MensalidadeFinal = Mensalidade - (0.5F * Mensalidade);
                     
             }
             else if(Bolsista == true && MediaFinal > 6 && MediaFinal < 8)
             {
 
-                MensalidadeFinal = Mensalidade - (30/100 * Mensalidade);
+                MensalidadeFinal = Mensalidade - (0.3F * Mensalidade);
             
                     
             }
