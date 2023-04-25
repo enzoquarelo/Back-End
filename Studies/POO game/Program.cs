@@ -2,6 +2,16 @@
 
 PokemonInicial Inicial= new PokemonInicial();
 
+static void MenuCombate(string menuResposta) 
+{
+  Console.WriteLine(@$"
+-----------Menu de Combate---------
+   | Ataques |            | Bolsa |
+| Trocar Pokemon |        | Fugir |");
+Console.WriteLine($"Digite o nome da aba que deseja acessar .");
+menuResposta = Console.ReadLine().ToLower();
+}
+
 Console.WriteLine($"Ola viajante, como podemos te chamar?");
 Inicial.Nome = Console.ReadLine();
 Console.WriteLine($"Muito bem {Inicial.Nome}, quantos anos voce tem?");
@@ -129,15 +139,52 @@ char respostaBatalha = char.Parse(Console.ReadLine().ToLower());
 switch (respostaBatalha)
 {
     case 's':
+        static void LoadingBatalha(string texto, int pontos, int tempo)
+{
+        Console.Write(texto);
 
+        for(var i = 0; i < pontos; i++)
+        {
+        Console.Write($".");
+        Thread.Sleep(tempo);
+        }
+    
+    Console.ResetColor();
+}
+LoadingBatalha("Carregando Batalha", 3, 1000);
         break;
     case 'n':
+        Console.WriteLine($"Eu sabia que voce era um covarde, como voce quer ser um treinador pokemon assim?");
+        Console.WriteLine($"{Inicial.Nome} voce quer batalhar com Steven? s/n");
+        respostaBatalha = char.Parse(Console.ReadLine().ToLower());
+
         break;
     default:
     Console.WriteLine($"Insira uma resposta valida, sendo S para sim e N para nao");
     
         break;
 }
+
+if (Inicial.EscolhaInicial == 1)
+{
+    Inicial.PokemonSteven = "Squirtle";
+}
+else if (Inicial.EscolhaInicial == 2)
+{
+    Inicial.PokemonSteven = "Charmander";
+}
+if (Inicial.EscolhaInicial == 3)
+{
+    Inicial.PokemonSteven = "Bulbasaur";
+}
+
+Console.WriteLine($"Steven lancou {Inicial.PokemonSteven}");
+
+
+
+
+
+
 
 
 

@@ -6,6 +6,8 @@ namespace POO_game
         public string Idade;
         public char EscolhaInicial;
         public char EscolhaGeracao;
+
+        public string PokemonSteven;
         public void Atacar(string inicial, string ataque, int dano)
         {
             Console.WriteLine($"O {inicial} usou {ataque}, ele causou {dano} de dano ao oponente.");
