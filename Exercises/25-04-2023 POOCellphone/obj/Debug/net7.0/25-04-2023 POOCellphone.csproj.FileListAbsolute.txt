@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\bin\Debug\net7.0\25-04-2023 POOCellphone.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\bin\Debug\net7.0\25-04-2023 POOCellphone.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\bin\Debug\net7.0\25-04-2023 POOCellphone.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\bin\Debug\net7.0\25-04-2023 POOCellphone.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\bin\Debug\net7.0\25-04-2023 POOCellphone.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\refint\25-04-2023 POOCellphone.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\25-04-2023 POOCellphone.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-04-2023 POOCellphone\obj\Debug\net7.0\ref\25-04-2023 POOCellphone.dll
