@@ -49,4 +49,4 @@ do
             break;
     }
 
-} while (respostaMenu != 3);
+} while (respostaMenu == 3);
