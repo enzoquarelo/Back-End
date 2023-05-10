@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\bin\Debug\net7.0\Lists C#.exe
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\bin\Debug\net7.0\Lists C#.deps.json
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\bin\Debug\net7.0\Lists C#.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\bin\Debug\net7.0\Lists C#.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\bin\Debug\net7.0\Lists C#.pdb
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\refint\Lists C#.dll
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.pdb
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\Lists C#.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Classes\Lists C#\obj\Debug\net7.0\ref\Lists C#.dll
