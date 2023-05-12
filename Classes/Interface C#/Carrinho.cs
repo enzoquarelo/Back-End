@@ -19,18 +19,27 @@ namespace Interface_C_
 
         public void Listar()
         {
-            if (carrinho != null)
+            if (carrinho.Count > 0 || carrinho != null)
             {
                 foreach (Produto p in carrinho)
                 {
                     Console.WriteLine(@$"Codigo: {p.Codigo} - Nome: {p.Nome} - Preco: {p.Preco:C}");
                 }
             }
+            else
+            {
+                Console.WriteLine($"Carrinho vazio!");
+            }
         }
 
         public void Remover(Produto _produto)
         {
             throw new NotImplementedException();
+        }
+
+        public void ValorTotal()
+        {
+            
         }
     }
 }
