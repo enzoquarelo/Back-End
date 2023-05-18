@@ -7,9 +7,12 @@ namespace ProjetoCadastro_16_05.Classes
         public float Preco { get; private set; }
         public DateTime DataCadastro { get; private set; }
         public Marca Marca { get; private set; }
+        public Usuario Usuario { get; private set; }
         public Usuario CadastradoPor { get; private set; }
         public List<Produto> ListaDeProdutos { get; private set; }
         Usuario ObjetoUsuario = new Usuario();
+        public Produto()
+        {}
         public Produto(int codigo, string nomeProduto, float preco, Marca marca, Usuario cadastradoPor, DateTime dataCadastro)
         {
             Codigo = codigo;
@@ -34,8 +37,7 @@ namespace ProjetoCadastro_16_05.Classes
             Console.Write($"Informe o codigo da marca do Produto:");
             int codigoMarca = int.Parse(Console.ReadLine());
             Marca.procurarMarca(codigoMarca);
-            CadastradoPor = ObjetoUsuario.procurarUsuario(ObjetoUsuario.Nome);
-
+            ObjetoUsuario.Email = CadastradoPor.Email;
             DataCadastro = DateTime.Now;
 
             listProduto.Add(new Produto(Codigo, NomeProduto , Preco, Marca, CadastradoPor, DataCadastro));
@@ -44,7 +46,11 @@ namespace ProjetoCadastro_16_05.Classes
         }
         public List<Produto> Listar()
         {
-            
+            foreach (var item in ListaDeProdutos)
+            {
+                
+            }
+           return ListaDeProdutos; 
         }
         public void Deletar()
         {

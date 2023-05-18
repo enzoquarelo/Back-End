@@ -6,6 +6,8 @@ namespace ProjetoCadastro_16_05
         public string NomeMarca { get; private set; }
 
         public DateTime DataCadastro { get; private set; }
+        public Marca()
+        {}
         public Marca(string nomeMarca, int codigo, DateTime dataCadastro)
         {
             NomeMarca = nomeMarca;
