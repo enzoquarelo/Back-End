@@ -45,7 +45,7 @@ namespace ProjetoCadastro_16_05.Classes
             Produto produto = new Produto();
             Marca marca = new Marca();
 
-            string opcaoMenu;
+            char opcaoMenu;
 
             do
             {
@@ -57,12 +57,30 @@ namespace ProjetoCadastro_16_05.Classes
                 ║[2] Listar Marcas     ║
                 ║[3] Remover Marca     ║
                 ╠══════════════════════╣
-                ║[1] Cadastrar Produto ║
-                ║[2] Listar Produtos   ║
-                ║[3] Remover Produto   ║
-                =
+                ║[4] Cadastrar Produto ║
+                ║[5] Listar Produtos   ║
+                ║[6] Remover Produto   ║
+                ╚══════════════════════╝");
+                opcaoMenu = char.Parse(Console.ReadLine());
                 
-                ");
+                switch (opcaoMenu)
+                {
+                    case '1':
+                    break;
+                    case '2':
+                    break;
+                    case '3':
+                    break;
+                    case '4':
+                    break;
+                    case '5':
+                    break;
+                    case '6':
+                    break;
+
+                    default:
+                    break;
+                }
                 
 
             }while(true);

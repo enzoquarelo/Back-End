@@ -47,8 +47,8 @@ namespace ProjetoCadastro_16_05
             {
                 Console.WriteLine(@$"
                 Codigo : {item.NomeMarca}
-                Nome do Produto : {item.Codigo}
-                Preco do Produto : {item.DataCadastro}");
+                Nome da Marca : {item.Codigo}
+                Data de cadastro : {item.DataCadastro}");
             }
 
             return listagem;

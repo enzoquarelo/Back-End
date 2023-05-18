@@ -48,7 +48,13 @@ namespace ProjetoCadastro_16_05.Classes
         {
             foreach (var item in ListaDeProdutos)
             {
-                
+                Console.WriteLine(@$"
+                Nome do Produto : {item.NomeProduto}
+                Codigo do Produto : {item.Codigo}
+                Preco do Produto : {item.Preco}
+                Marca do Produto(Codigo) : {item.Marca}
+                Cadastrado por : {item.CadastradoPor}
+                Data do Cadastro : {item.DataCadastro}");
             }
            return ListaDeProdutos; 
         }
