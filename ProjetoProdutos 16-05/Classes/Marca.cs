@@ -2,10 +2,10 @@ namespace ProjetoCadastro_16_05
 {
     public class Marca
     {
-        private int Codigo { get; set; }
-        private string NomeMarca { get; set; }
+        public int Codigo { get; private set; }
+        public string NomeMarca { get; private set; }
 
-        private DateTime DataCadastro { get; set; }
+        public DateTime DataCadastro { get; private set; }
         public Marca(string nomeMarca, int codigo, DateTime dataCadastro)
         {
             NomeMarca = nomeMarca;
@@ -14,7 +14,7 @@ namespace ProjetoCadastro_16_05
         }
 
         List<Marca> listMarca = new List<Marca>();
-        public string Cadastrar(string novaMarca)
+        public void Cadastrar()
         {
             Console.WriteLine($"Vamos realizar o cadastro da sua Marca :");
             Console.Write($"Informe o nome da marca:");
@@ -24,9 +24,21 @@ namespace ProjetoCadastro_16_05
             DataCadastro = DateTime.Now;
 
             listMarca.Add(new Marca(NomeMarca, Codigo, DataCadastro));
-
-            return novaMarca;
         }
+        public void procurarMarca(int codigo)
+        {
+            Marca marca = listMarca.Find(x => x.Codigo == codigo);
+            if (marca == null)
+            {
+                Console.WriteLine($"Nao ha nenhuma marca cadastrada com o codigo digitado...");
+                Cadastrar();
+            }
+            else
+            {
+                
+            }
+        }
+
         public List<Marca> Listar(List<Marca> listagem)
         {
             foreach (var item in listMarca)
@@ -56,7 +68,7 @@ namespace ProjetoCadastro_16_05
             }
             else
             {
-                Console.WriteLine("Esse email nao foi cadastrado. Tente Novamente!");
+                Console.WriteLine("Essa marca nao foi cadastrada. Tente Novamente!");
                 marcaExcluir = Console.ReadLine();
             }
 

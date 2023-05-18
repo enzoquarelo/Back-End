@@ -3,19 +3,15 @@ namespace ProjetoCadastro_16_05.Classes
     public class Usuario
     {
         
-        private int Codigo { get; set; }
-        private string Nome { get; set; }
-        private string Email { get; set; }
-        private string Senha { get; set; }
-        private DateTime DataCadastro { get; set; }
-        List<Usuario> listUsuario = new List<Usuario>();
+        public int Codigo { get; private set; }
+        public string Nome { get; private set; }
+        public string Email { get; private set; }
+        public string Senha { get; private set; }
+        public DateTime DataCadastro { get; private set; }
 
-        public Usuario(string email, string senha, string nome, DateTime dataCadastro)
+        public Usuario()
         {
-            Nome = nome;
-            Email = email;
-            Senha = senha;
-            DataCadastro = dataCadastro;
+
         }
 
         public string Cadastrar(string novoUsuario)
@@ -29,8 +25,6 @@ namespace ProjetoCadastro_16_05.Classes
             Senha = Console.ReadLine();
             DataCadastro = DateTime.Now;
 
-            listUsuario.Add(new Usuario(Email, Senha, Nome, DataCadastro));
-
             return novoUsuario;
         }
         public void Deletar()
@@ -38,16 +32,12 @@ namespace ProjetoCadastro_16_05.Classes
             Console.WriteLine($"Informe o email do usuario que deseja excluir :");
             string usuarioExcluir = Console.ReadLine();
 
-            int indice = listUsuario.FindIndex(CadaUsuario => CadaUsuario.Email == usuarioExcluir);
-            if (indice != -1)
+            
+            if (usuarioExcluir == Email)
             {
-                listUsuario.RemoveAt(indice);
-                indice++;
-                listUsuario.RemoveAt(indice);
-                indice++;
-                listUsuario.RemoveAt(indice);
-                indice++;
-                listUsuario.RemoveAt(indice);
+                Nome = "";
+                Email = "";
+                Senha = "";
             }
             else
             {

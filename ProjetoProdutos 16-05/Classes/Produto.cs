@@ -1,21 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace ProjetoCadastro_16_05.Classes
 {
     public class Produto
     {
-        private int Codigo { get; set; }
-        private string NomeProduto { get; set; }
-        private float Preco { get; set; }
-        private DateTime DataCadastro { get; set; }
-        private Marca Marca { get; set; }
-        private Usuario CadastradoPor { get; set; }
-        private List<Produto> ListaDeProdutos { get; set; }
-        
-        public Produto(string nomeProduto, float preco, int codigo, Marca marca, Usuario cadastradoPor, DateTime dataCadastro)
+        public int Codigo { get; private set; }
+        public string NomeProduto { get; private set; }
+        public float Preco { get; private set; }
+        public DateTime DataCadastro { get; private set; }
+        public Marca Marca { get; private set; }
+        public Usuario CadastradoPor { get; private set; }
+        public List<Produto> ListaDeProdutos { get; private set; }
+        Usuario ObjetoUsuario = new Usuario();
+        public Produto(int codigo, string nomeProduto, float preco, Marca marca, Usuario cadastradoPor, DateTime dataCadastro)
         {
             Codigo = codigo;
             NomeProduto = nomeProduto;
@@ -26,7 +21,8 @@ namespace ProjetoCadastro_16_05.Classes
         }
 
         List<Produto> listProduto = new List<Produto>();
-        public string Cadastrar(string novoProduto, int )
+
+        public string Cadastrar(string novoProduto)
         {
             Console.WriteLine($"Vamos realizar o cadastro do Produto :");
             Console.Write($"Informe o codigo do Produto:");
@@ -37,16 +33,18 @@ namespace ProjetoCadastro_16_05.Classes
             Preco = float.Parse(Console.ReadLine());
             Console.Write($"Informe o codigo da marca do Produto:");
             int codigoMarca = int.Parse(Console.ReadLine());
+            Marca.procurarMarca(codigoMarca);
+            CadastradoPor = ObjetoUsuario.procurarUsuario(ObjetoUsuario.Nome);
 
             DataCadastro = DateTime.Now;
 
-            listProduto.Add(new Produto());
+            listProduto.Add(new Produto(Codigo, NomeProduto , Preco, Marca, CadastradoPor, DataCadastro));
 
             return novoProduto;
         }
         public List<Produto> Listar()
         {
-
+            
         }
         public void Deletar()
         {
