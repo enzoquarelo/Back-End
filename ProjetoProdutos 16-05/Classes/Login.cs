@@ -26,21 +26,29 @@ namespace ProjetoCadastro_16_05.Classes
                 switch (opcaoCadastro)
                 {
                     case '1':
-                        Console.WriteLine($"Insira seu email: ");
-                        string email = Console.ReadLine();
-
-                        Console.WriteLine($"Insira sua senha: ");
-                        string senha = Console.ReadLine();
-
-                        if (email == usuario.Email && senha == usuario.Senha)
+                        if (usuario.Email == null || usuario.Senha == null)
                         {
-                            this.Logado = true;
-                            Console.WriteLine($"Login efetuado com sucesso !");
+                            Console.WriteLine($"Nao ha nenhum usuario cadastrado no programa, tente fazer seu cadastro");
+                            usuario.Cadastrar();
                         }
                         else
                         {
-                            this.Logado = false;
-                            Console.WriteLine($"Falha ao logar !");
+                            Console.WriteLine($"Insira seu email: ");
+                            string email = Console.ReadLine();
+
+                            Console.WriteLine($"Insira sua senha: ");
+                            string senha = Console.ReadLine();
+
+                            if (email == usuario.Email && senha == usuario.Senha)
+                            {
+                                this.Logado = true;
+                                Console.WriteLine($"Login efetuado com sucesso !");
+                            }
+                            else
+                            {
+                                this.Logado = false;
+                                Console.WriteLine($"Falha ao logar !");
+                            }
                         }
                         if (Logado == true)
                         {

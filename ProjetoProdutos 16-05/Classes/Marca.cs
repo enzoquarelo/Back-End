@@ -2,12 +2,13 @@ namespace ProjetoCadastro_16_05
 {
     public class Marca
     {
-        public int Codigo { get; private set; }
-        public string NomeMarca { get; private set; }
+        public int Codigo { get; set; }
+        public string NomeMarca { get; set; }
 
-        public DateTime DataCadastro { get; private set; }
+        public DateTime DataCadastro { get; set; }
+
         public Marca()
-        {}
+        { }
         public Marca(string nomeMarca, int codigo, DateTime dataCadastro)
         {
             NomeMarca = nomeMarca;
@@ -15,17 +16,34 @@ namespace ProjetoCadastro_16_05
             DataCadastro = dataCadastro;
         }
 
-        List<Marca> listMarca = new List<Marca>();
-        public void Cadastrar()
+        public static List<Marca> listMarca = new List<Marca>();
+        public Marca Cadastrar()
         {
-            Console.WriteLine($"Vamos realizar o cadastro da sua Marca :");
-            Console.Write($"Informe o nome da marca:");
-            NomeMarca = Console.ReadLine().ToUpper();
-            Console.Write($"Informe o codigo da marca:");
-            Codigo = int.Parse(Console.ReadLine());
-            DataCadastro = DateTime.Now;
+            Marca novaMarca = new Marca();
 
-            listMarca.Add(new Marca(NomeMarca, Codigo, DataCadastro));
+            Console.WriteLine($"Vamos realizar o cadastro da sua Marca :");
+
+            DataCadastro = DateTime.Now;
+            Console.Write($"Informe o codigo da marca:");
+            int codigo = int.Parse(Console.ReadLine());
+
+            novaMarca = listMarca.Find(x => x.Codigo == codigo);
+
+            if (novaMarca == null)
+            {
+                novaMarca = new Marca();
+                novaMarca.Codigo = codigo;
+                Console.Write($"Informe o nome da marca:");
+                novaMarca.NomeMarca = Console.ReadLine().ToUpper();
+
+                listMarca.Add(novaMarca);
+                return novaMarca;
+            }
+            else
+            {
+                Console.WriteLine($"A marca ja existe!");
+                return novaMarca;
+            }
         }
         public void procurarMarca(int codigo)
         {
@@ -37,7 +55,7 @@ namespace ProjetoCadastro_16_05
             }
             else
             {
-                
+
             }
         }
 
@@ -46,8 +64,8 @@ namespace ProjetoCadastro_16_05
             foreach (var item in listMarca)
             {
                 Console.WriteLine(@$"
-                Codigo : {item.NomeMarca}
-                Nome da Marca : {item.Codigo}
+                Nome da Marca : {item.NomeMarca}
+                Codigo : {item.Codigo}
                 Data de cadastro : {item.DataCadastro}");
             }
 
