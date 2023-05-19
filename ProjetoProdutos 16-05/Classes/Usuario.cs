@@ -20,7 +20,7 @@ namespace ProjetoCadastro_16_05.Classes
             DataCadastro = dataCadastro;
         }
 
-        public string Cadastrar(string novoUsuario)
+        public void Cadastrar()
         {
             Console.WriteLine($"Vamos realizar seu cadastro :");
             Console.Write("Nome Completo: ");
@@ -32,8 +32,6 @@ namespace ProjetoCadastro_16_05.Classes
             DataCadastro = DateTime.Now;
 
             listUsuario.Add(new Usuario(Email, Senha, Nome, DataCadastro));
-
-            return novoUsuario;
         }
         public void Deletar()
         {

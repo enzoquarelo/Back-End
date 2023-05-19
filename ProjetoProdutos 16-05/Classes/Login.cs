@@ -5,34 +5,58 @@ namespace ProjetoCadastro_16_05.Classes
         public bool Logado { get; private set; }
 
         public Login()
-        {       
+        {
             Usuario user = new Usuario();
             Logar(user);
-
-            if (Logado == true)
-            {
-                GerarMenu();
-            }
         }
 
         public void Logar(Usuario usuario)
         {
-            Console.WriteLine($"Insira seu email: ");
-            string email = Console.ReadLine();
+            Usuario usuario1 = new Usuario();
+            char opcaoCadastro;
 
-            Console.WriteLine($"Insira sua senha: ");
-            string senha = Console.ReadLine();
+            do
+            {
+                Console.WriteLine(@$"
+            Bem-Vindo ao nosso Programa de Produtos
+            [1] Fazer Login
+            [2] Cadastrar");
+                opcaoCadastro = char.Parse(Console.ReadLine());
 
-            if (email == usuario.Email && senha == usuario.Senha)
-            {
-                this.Logado = true;
-                Console.WriteLine($"Login efetuado com sucesso !");
-            }
-            else
-            {
-                this.Logado = false;
-                Console.WriteLine($"Falha ao logar !");
-            }
+                switch (opcaoCadastro)
+                {
+                    case '1':
+                        Console.WriteLine($"Insira seu email: ");
+                        string email = Console.ReadLine();
+
+                        Console.WriteLine($"Insira sua senha: ");
+                        string senha = Console.ReadLine();
+
+                        if (email == usuario.Email && senha == usuario.Senha)
+                        {
+                            this.Logado = true;
+                            Console.WriteLine($"Login efetuado com sucesso !");
+                        }
+                        else
+                        {
+                            this.Logado = false;
+                            Console.WriteLine($"Falha ao logar !");
+                        }
+                        if (Logado == true)
+                        {
+                            GerarMenu();
+                        }
+
+                        break;
+                    case '2':
+                        usuario.Cadastrar();
+                        break;
+                    default:
+                        Console.WriteLine($"Opcao invalida, Tente Novamente !");
+                        opcaoCadastro = char.Parse(Console.ReadLine());
+                        break;
+                }
+            } while (opcaoCadastro != 1);
         }
 
         public void Deslogar()
@@ -62,28 +86,36 @@ namespace ProjetoCadastro_16_05.Classes
                 ║[6] Remover Produto   ║
                 ╚══════════════════════╝");
                 opcaoMenu = char.Parse(Console.ReadLine());
-                
+
                 switch (opcaoMenu)
                 {
                     case '1':
-                    break;
+                        marca.Cadastrar();
+                        break;
                     case '2':
-                    break;
+                        marca.Listar();
+                        break;
                     case '3':
-                    break;
+                        marca.Deletar();
+                        break;
                     case '4':
-                    break;
+                        produto.Cadastrar();
+                        break;
                     case '5':
-                    break;
+                        produto.Listar();
+                        break;
                     case '6':
-                    break;
+                        produto.Deletar();
+                        break;
 
                     default:
-                    break;
+                        Console.WriteLine($"Opcao invalida, Tente Novamente !");
+                        opcaoMenu = char.Parse(Console.ReadLine());
+                        break;
                 }
-                
 
-            }while(true);
+
+            } while (true);
         }
 
     }

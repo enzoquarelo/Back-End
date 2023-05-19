@@ -20,7 +20,7 @@ namespace ProjetoCadastro_16_05
         {
             Console.WriteLine($"Vamos realizar o cadastro da sua Marca :");
             Console.Write($"Informe o nome da marca:");
-            NomeMarca = Console.ReadLine();
+            NomeMarca = Console.ReadLine().ToUpper();
             Console.Write($"Informe o codigo da marca:");
             Codigo = int.Parse(Console.ReadLine());
             DataCadastro = DateTime.Now;
@@ -41,7 +41,7 @@ namespace ProjetoCadastro_16_05
             }
         }
 
-        public List<Marca> Listar(List<Marca> listagem)
+        public List<Marca> Listar()
         {
             foreach (var item in listMarca)
             {
@@ -51,12 +51,12 @@ namespace ProjetoCadastro_16_05
                 Data de cadastro : {item.DataCadastro}");
             }
 
-            return listagem;
+            return listMarca;
         }
         public void Deletar()
         {
             Console.WriteLine($"Informe o Nome da Marca que deseja excluir :");
-            string marcaExcluir = Console.ReadLine();
+            string marcaExcluir = Console.ReadLine().ToUpper();
 
             int indice = listMarca.FindIndex(CadaUsuario => CadaUsuario.NomeMarca == marcaExcluir);
             if (indice != -1)
