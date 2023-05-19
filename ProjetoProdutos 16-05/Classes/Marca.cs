@@ -58,22 +58,9 @@ namespace ProjetoCadastro_16_05
             Console.WriteLine($"Informe o Nome da Marca que deseja excluir :");
             string marcaExcluir = Console.ReadLine().ToUpper();
 
-            int indice = listMarca.FindIndex(CadaUsuario => CadaUsuario.NomeMarca == marcaExcluir);
-            if (indice != -1)
-            {
-                listMarca.RemoveAt(indice);
-                indice++;
-                listMarca.RemoveAt(indice);
-                indice++;
-                listMarca.RemoveAt(indice);
+            Marca marcaBuscada = listMarca.Find(CadaUsuario => CadaUsuario.NomeMarca == marcaExcluir);
 
-            }
-            else
-            {
-                Console.WriteLine("Essa marca nao foi cadastrada. Tente Novamente!");
-                marcaExcluir = Console.ReadLine();
-            }
-
+            listMarca.Remove(marcaBuscada);
         }
     }
 }
