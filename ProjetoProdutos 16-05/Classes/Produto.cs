@@ -5,6 +5,7 @@ namespace ProjetoCadastro_16_05.Classes
         public int Codigo { get; set; }
         public string NomeProduto { get; set; }
         public float Preco { get; set; }
+        public int marcaProcurar { get; set; }
         public DateTime DataCadastro { get; set; }
         public Marca Marca { get; set; }
         public Usuario Usuario { get; set; }
@@ -41,7 +42,6 @@ namespace ProjetoCadastro_16_05.Classes
             Console.Write($"Informe o preco do Produto:");
             novoProduto.Preco = float.Parse(Console.ReadLine());
 
-
             novoProduto.Marca = m.Cadastrar();
             DataCadastro = DateTime.Now;
 
@@ -49,18 +49,18 @@ namespace ProjetoCadastro_16_05.Classes
         }
         public List<Produto> Listar()
         {
-            foreach (var item in ListaDeProdutos)
+            foreach (var item in listProduto)
             {
                 Console.WriteLine(@$"
-                ╔══════════════════════════════════════════╗
-                ║Nome do Produto : {item.NomeProduto}      ║  
-                ║Codigo do Produto : {item.Codigo}         ║
-                ║Preco do Produto : {item.Preco}           ║
-                ║Marca do Produto(Codigo) : {item.Marca.Codigo}   ║
-                ║` ║
-                ╚══════════════════════════════════════════╝");
+                ╔═══════════════════════════════════════════════╗
+                ║Nome do Produto : {item.NomeProduto}           ║  
+                ║Codigo do Produto : {item.Codigo}              ║
+                ║Preco do Produto : {item.Preco}                ║
+                ║Marca do Produto(Codigo) : {item.Marca.Codigo} ║
+                ╚═══════════════════════════════════════════════╝");
             }
-            return ListaDeProdutos;
+
+            return listProduto;
         }
         public void Deletar()
         {

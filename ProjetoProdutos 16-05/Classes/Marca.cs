@@ -21,8 +21,6 @@ namespace ProjetoCadastro_16_05
         {
             Marca novaMarca = new Marca();
 
-            Console.WriteLine($"Vamos realizar o cadastro da sua Marca :");
-
             DataCadastro = DateTime.Now;
             Console.Write($"Informe o codigo da marca:");
             int codigo = int.Parse(Console.ReadLine());
@@ -41,21 +39,8 @@ namespace ProjetoCadastro_16_05
             }
             else
             {
-                Console.WriteLine($"A marca ja existe!");
+                Console.WriteLine($"A marca ja existe! *{novaMarca.NomeMarca}*");
                 return novaMarca;
-            }
-        }
-        public void procurarMarca(int codigo)
-        {
-            Marca marca = listMarca.Find(x => x.Codigo == codigo);
-            if (marca == null)
-            {
-                Console.WriteLine($"Nao ha nenhuma marca cadastrada com o codigo digitado...");
-                Cadastrar();
-            }
-            else
-            {
-
             }
         }
 

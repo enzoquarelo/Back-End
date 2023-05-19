@@ -3,7 +3,7 @@ namespace ProjetoCadastro_16_05.Classes
     public class Usuario
     {
         
-        public int Codigo { get; private set; }
+        public string Codigo { get; private set; }
         public string Nome { get; private set; }
         public string Email { get; set; }
         public string Senha { get; private set; }
