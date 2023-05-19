@@ -38,22 +38,9 @@ namespace ProjetoCadastro_16_05.Classes
             Console.WriteLine($"Informe o email do usuario que deseja excluir :");
             string usuarioExcluir = Console.ReadLine();
 
-            int indice = listUsuario.FindIndex(CadaUsuario => CadaUsuario.Email == usuarioExcluir);
-            if (indice != -1)
-            {
-                listUsuario.RemoveAt(indice);
-                indice++;
-                listUsuario.RemoveAt(indice);
-                indice++;
-                listUsuario.RemoveAt(indice);
-                indice++;
-                listUsuario.RemoveAt(indice);
-            }
-            else
-            {
-                Console.WriteLine("Esse email nao foi cadastrado. Tente Novamente!");
-                usuarioExcluir = Console.ReadLine();
-            }
+            Usuario usuarioBuscado = listUsuario.Find(CadaUsuario => CadaUsuario.Email == usuarioExcluir);
+
+            listUsuario.Remove(usuarioBuscado);
         }
 
 

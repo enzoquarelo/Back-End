@@ -34,18 +34,29 @@ namespace ProjetoCadastro_16_05.Classes
             Console.WriteLine($"Vamos realizar o cadastro do Produto");
 
             Console.Write($"Informe o codigo do Produto:");
-            novoProduto.Codigo = int.Parse(Console.ReadLine());
+            int codigo = int.Parse(Console.ReadLine());
 
-            Console.Write($"Informe o nome do Produto:");
-            novoProduto.NomeProduto = Console.ReadLine().ToUpper();
+            novoProduto = listProduto.Find(x => x.Codigo == codigo);
 
-            Console.Write($"Informe o preco do Produto:");
-            novoProduto.Preco = float.Parse(Console.ReadLine());
+            if (novoProduto == null)
+            {
+                novoProduto = new Produto();
+                novoProduto.Codigo = codigo;
+                Console.Write($"Informe o nome do Produto:");
+                novoProduto.NomeProduto = Console.ReadLine().ToUpper();
 
-            novoProduto.Marca = m.Cadastrar();
-            DataCadastro = DateTime.Now;
+                Console.Write($"Informe o preco do Produto:");
+                novoProduto.Preco = float.Parse(Console.ReadLine());
+                DataCadastro = DateTime.Now;
 
-            listProduto.Add(novoProduto);
+                novoProduto.Marca = m.Cadastrar();
+
+                listProduto.Add(novoProduto);
+            }
+            else
+            {
+                Console.WriteLine($"O produto ja existe! *{novoProduto.NomeProduto}*");
+            }
         }
         public List<Produto> Listar()
         {

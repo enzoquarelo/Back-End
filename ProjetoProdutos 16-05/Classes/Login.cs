@@ -17,10 +17,14 @@ namespace ProjetoCadastro_16_05.Classes
 
             do
             {
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine(@$"
-            Bem-Vindo ao nosso Programa de Produtos
-            [1] Fazer Login
-            [2] Cadastrar");
+            ┌──────────────────────────────────────────┐
+            |Bem-Vindo ao nosso Programa de Produtos   |
+            |[1] Fazer Login                           |
+            |[2] Cadastrar                             |
+            └──────────────────────────────────────────┘");
+                Console.ResetColor();
                 opcaoCadastro = char.Parse(Console.ReadLine());
 
                 switch (opcaoCadastro)
@@ -28,6 +32,7 @@ namespace ProjetoCadastro_16_05.Classes
                     case '1':
                         if (usuario.Email == null || usuario.Senha == null)
                         {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine($"Nao ha nenhum usuario cadastrado no programa, tente fazer seu cadastro");
                             usuario.Cadastrar();
                         }
