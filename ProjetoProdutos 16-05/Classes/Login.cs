@@ -33,26 +33,35 @@ namespace ProjetoCadastro_16_05.Classes
                         if (usuario.Email == null || usuario.Senha == null)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine($"Nao ha nenhum usuario cadastrado no programa, tente fazer seu cadastro");
+                            Console.WriteLine($"Nao ha nenhum usuario cadastrado no programa, faca seu cadastro.");
+                            Console.ResetColor();
                             usuario.Cadastrar();
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.DarkBlue;
                             Console.WriteLine($"Insira seu email: ");
+                            Console.ResetColor();
                             string email = Console.ReadLine();
 
+                            Console.ForegroundColor = ConsoleColor.DarkBlue;
                             Console.WriteLine($"Insira sua senha: ");
+                            Console.ResetColor();
                             string senha = Console.ReadLine();
 
                             if (email == usuario.Email && senha == usuario.Senha)
                             {
                                 this.Logado = true;
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine($"Login efetuado com sucesso !");
+                                Console.ResetColor();
                             }
                             else
                             {
                                 this.Logado = false;
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine($"Falha ao logar !");
+                                Console.ResetColor();
                             }
                         }
                         if (Logado == true)
@@ -88,7 +97,7 @@ namespace ProjetoCadastro_16_05.Classes
             {
                 Console.WriteLine(@$"
                 ╔══════════════════════╗
-                ║        Menu          ║
+                ║         Menu         ║
                 ╠══════════════════════╣
                 ║[1] Cadastrar Marca   ║
                 ║[2] Listar Marcas     ║
