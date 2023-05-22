@@ -33,9 +33,27 @@ namespace ProjetoCadastro_16_05.Classes
                         if (usuario.Email == null || usuario.Senha == null)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine($"Nao ha nenhum usuario cadastrado no programa, faca seu cadastro.");
+                            Console.WriteLine($"Nao ha nenhum usuario cadastrado no programa.");
                             Console.ResetColor();
-                            usuario.Cadastrar();
+                            Console.WriteLine(@$"
+            [1] Fazer Cadastro
+            [2] Voltar Menu");
+                            
+                            char fazerCadastro = char.Parse(Console.ReadLine());
+                            if (fazerCadastro == '1')
+                            {
+                                usuario.Cadastrar();
+                            }
+                            else if (fazerCadastro == '2')
+                            {
+
+                            }
+                            else
+                            {
+                                Console.WriteLine($"Opcao invalido, Tente Novamente!");
+                                fazerCadastro = char.Parse(Console.ReadLine());
+                            }
+
                         }
                         else
                         {
