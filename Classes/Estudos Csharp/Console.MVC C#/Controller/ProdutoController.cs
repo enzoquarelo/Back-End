@@ -1,23 +1,20 @@
-using Console.MVC_C_.Model;
-using Console.MVC_C_.View;
+using Console.MVC_C_.Model.Model;
+using Console.MVC_C_.Model.View;
 
-namespace console_MVC.Controller
+namespace Console.MVC_C_.Model.Controller
 {
     public class ProdutoController
     {
-        //instanciar objeto produto e produtoView
-
+        // Instanciar objeto produto e produtoView
         Produto produto = new Produto();
-        ProdutoView produtoView = new ProdutoView();
-
-        // metodo controlador para acessar a listagem de produtos 
+        ProdutoView pView = new ProdutoView();
         public void ListarProdutos()
         {
-            // lista de produtos chamada pela model 
+            // lista de pordutos chamada pela model
             List<Produto> produtos = produto.Ler();
 
-            // chamada do metodo de exibicao (View) recebendo como argumento a lista de produtos
-            produtoView.Listar(produtos);
+            // chamado método de exibição (VIEW) recebendo como argumento a l
+            pView.Listar(produtos);
         }
     }
 }
