@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Console.MVC C#/1.0.0": {
+      "MVC/1.0.0": {
         "runtime": {
-          "Console.MVC C#.dll": {}
+          "MVC.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Console.MVC C#/1.0.0": {
+    "MVC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

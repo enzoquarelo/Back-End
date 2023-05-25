@@ -1,11 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Console.MVC_C_.Model
+namespace MVC.Model
 {
     public class Produto
     {
-        public int Codigo { get; private set; }
-        public string Nome { get; private set; }
-        public float Preco { get; private set; }
+        public int Codigo { get; set; }
+        public string Nome { get; set; }
+        public float Preco { get; set; }
         // Caminho da pasta e do arquivo definido
         private const string PATH = "Database/Produto.csv";
         private const string txt = "Texto.txt";
@@ -60,6 +64,19 @@ namespace Console.MVC_C_.Model
             }
             // retorna a lista de produtos
             return listProdutos;
+        }
+        // Método para preparar a linha do csv
+        public string PreparaLinhaCSV(Produto _p)
+        {
+            return$"{_p.Codigo};{_p.Nome};{_p.Preco}";
+        }
+
+        // Método para inserir um produto no arquivo CSV
+        public void Inserir(Produto _p)
+        {
+            string[] linhas = {PreparaLinhaCSV(_p)};
+
+            File.AppendAllLines(PATH, linhas);
         }
     }
 }

@@ -1,7 +1,8 @@
-﻿using Console.MVC_C_.Model;
-using Console.MVC_C_.;
-
+﻿using MVC.Model;
+using MVC.Controller;
+// Instancia
 Produto p = new Produto();
 ProdutoController pController = new ProdutoController();
 
+pController.CadastrarProduto();
 pController.ListarProdutos();

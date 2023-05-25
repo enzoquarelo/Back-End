@@ -1,6 +1,10 @@
-using Console.MVC_C_.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using MVC.Model;
 
-namespace Console.MVC_C_.View
+namespace MVC.View
 {
     public class ProdutoView
     {
@@ -14,9 +18,22 @@ namespace Console.MVC_C_.View
                 Console.WriteLine(@$"
 Código: {item.Codigo}
 Nome:   {item.Nome}
-Preco:  {item.Preco}");
-
+Preco:  {item.Preco:C}");
+                
             }
+        }
+        public Produto Cadastrar()
+        {
+            Produto novoProduto = new Produto();
+
+            Console.WriteLine($"Informe o código:");
+            novoProduto.Codigo = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Informe o nome:");
+            novoProduto.Nome = Console.ReadLine();
+            Console.WriteLine($"Informe o preço:");
+            novoProduto.Preco = float.Parse(Console.ReadLine());
+
+            return novoProduto;
         }
     }
 }

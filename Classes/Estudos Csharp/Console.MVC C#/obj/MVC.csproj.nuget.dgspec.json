@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\49470161831\\Desktop\\Back-End\\Classes\\Estudos Csharp\\Console.MVC C#\\Console.MVC C#.csproj": {}
+    "C:\\Users\\51910007811\\Desktop\\Nova pasta\\C# Exercícios\\2023-05-24\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\49470161831\\Desktop\\Back-End\\Classes\\Estudos Csharp\\Console.MVC C#\\Console.MVC C#.csproj": {
+    "C:\\Users\\51910007811\\Desktop\\Nova pasta\\C# Exercícios\\2023-05-24\\MVC\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\49470161831\\Desktop\\Back-End\\Classes\\Estudos Csharp\\Console.MVC C#\\Console.MVC C#.csproj",
-        "projectName": "Console.MVC C#",
-        "projectPath": "C:\\Users\\49470161831\\Desktop\\Back-End\\Classes\\Estudos Csharp\\Console.MVC C#\\Console.MVC C#.csproj",
-        "packagesPath": "C:\\Users\\49470161831\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\49470161831\\Desktop\\Back-End\\Classes\\Estudos Csharp\\Console.MVC C#\\obj\\",
+        "projectUniqueName": "C:\\Users\\51910007811\\Desktop\\Nova pasta\\C# Exercícios\\2023-05-24\\MVC\\MVC.csproj",
+        "projectName": "MVC",
+        "projectPath": "C:\\Users\\51910007811\\Desktop\\Nova pasta\\C# Exercícios\\2023-05-24\\MVC\\MVC.csproj",
+        "packagesPath": "C:\\Users\\51910007811\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\51910007811\\Desktop\\Nova pasta\\C# Exercícios\\2023-05-24\\MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\49470161831\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\51910007811\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
