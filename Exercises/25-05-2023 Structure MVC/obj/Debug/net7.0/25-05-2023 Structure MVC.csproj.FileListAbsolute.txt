@@ -1,0 +1,15 @@
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\bin\Debug\net7.0\25-05-2023 Structure MVC.exe
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\bin\Debug\net7.0\25-05-2023 Structure MVC.deps.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\bin\Debug\net7.0\25-05-2023 Structure MVC.runtimeconfig.json
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\bin\Debug\net7.0\25-05-2023 Structure MVC.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\bin\Debug\net7.0\25-05-2023 Structure MVC.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.csproj.AssemblyReference.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.AssemblyInfoInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.AssemblyInfo.cs
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.csproj.CoreCompileInputs.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\refint\25-05-2023 Structure MVC.dll
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.pdb
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\25-05-2023 Structure MVC.genruntimeconfig.cache
+C:\Users\49470161831\Desktop\Back-End\Exercises\25-05-2023 Structure MVC\obj\Debug\net7.0\ref\25-05-2023 Structure MVC.dll
